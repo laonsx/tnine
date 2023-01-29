@@ -1,0 +1,20 @@
+package game
+
+import (
+	"log"
+
+	"github.com/laonsx/tnine/internal/pkg/cmd"
+)
+
+func init() {
+	cmd.RegisterApi(runApi)
+	cmd.RegisterRpc(runRpc)
+}
+
+func runApi(args cmd.RunArgs) {
+	log.Println("game api run")
+}
+
+func runRpc(args cmd.RunArgs) {
+	log.Println("game rpc run")
+}
