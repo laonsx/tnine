@@ -1,4 +1,4 @@
 /bin/auth
 /bin/game
 /bin/gate
-.idea
+.idea/*
