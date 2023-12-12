@@ -9,6 +9,9 @@ gate:
 game:
 	go build -o ./bin/game ./cmd/game
 
+example:
+	go build -o ./bin/example ./cmd/example
+
 run:
 	./bin/auth rpc
 	./bin/auth api
